@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kalkulator Alat Elektronik</title>
+  </head>
+  <body>
+    <header>
+      <button><a href="pilih.html">Kembali</a></button>
+      <h2>Hitung Jejak Karbon Peralatan Listrik Anda</h2>
+    </header>
+    <main>
+      <section class="alat-elektronik">
+        <div class="box">
+          <div class="input-container">
+            <label for="elektro">Jenis Peralatan Listrik :</label>
+            <select name="elektro" id="elektro">
+              <option value="" disabled selected>Pilih Perangkat</option>
+              <option value="smartphone">Smartphone</option>
+              <option value="laptop">Laptop</option>
+              <option value="tv">TV</option>
+              <option value="refrigerator">Kulkas</option>
+              <option value="ricecooker">RiceCooker</option>
+            </select>
+          </div>
+          <div class="input-container">
+            <label for="selek">Jumlah Satuan</label>
+            <input id="selek" type="number" min="1" placeholder="Jumlah Satuan" />
+          </div>
+          <div class="input-container">
+            <label for="delek">Lama Penggunaan (jam)</label>
+            <input
+              type="number"
+              min="1"
+              placeholder="Lama Penggunaan"
+              id="delek"
+            />
+          </div>
+          <div class="input-container">
+            <label for="pelek">Periode Pemakaian</label>
+            <select name="pemakaian" id="pelek">
+              <option value="harian">Harian</option>
+              <option value="bulanan">Bulanan</option>
+              <option value="tahunan">Tahunan</option>
+            </select>
+          </div>
+          <p id="resultelek"></p>
+          <button onclick="hitungelektronik()">
+            <a href="history.html">Lanjut</a>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kalkulator AC (PK)</title>
+  </head>
+  <body>
+    <header>
+      <button><a href="pilih.html">Kembali</a></button>
+      <h2>AC/Pendingin ruangan</h2>
+    </header>
+    <main>
+      <section class="karbon-ac">
+        <div class="input-container">
+          <label for="kapasitas-ac">Kapasitas AC (PK) </label>
+          <select id="kapasitas-ac">
+            <option>Pilih kapasitas</option>
+            <option value="0.5">0.5</option>
+            <option value="1">1</option>
+            <option value="1.5">1.5</option>
+            <option value="2">2</option>
+            <option value="2.5">2.5</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="input-container">
+          <label for="jumlah-ac">Jumlah pendingin ruangan </label>
+          <input
+            type="number"
+            id="jumlah-ac"
+            min="1"
+            placeholder="Jumlah Total Pendingin Ruangan"
+          />
+        </div>
+        <div class="input-container">
+          <label for="hari-penggunaan">Lama Penggunaan(Jam)</label>
+          <input
+            type="number"
+            id="jam-penggunaan"
+            min="1"
+            placeholder="Total Hari Penggunaan"
+          />
+        </div>
+        <div class="input-container">
+          <label for="pac">Periode Pemakaian</label>
+          <select name="pemakaian" id="pac">
+            <option value="harian">Harian</option>
+            <option value="bulanan">Bulanan</option>
+            <option value="tahunan">Tahunan</option>
+          </select>
+        </div>
+        <div>
+          <p id="resultac"></p>
+          <button onclick="hitungac()">
+            <a href="history.html">Lanjut</a>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+</html>

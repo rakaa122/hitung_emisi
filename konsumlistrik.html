@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kalkulator Karbon Penggunaan Listrik</title>
+  </head>
+  <body>
+    <header>
+      <button><a href="pilih.html">Kembali</a></button>
+      <h2>Penggunaan Listrik Wilayah</h2>
+    </header>
+    <main>
+      <section class="wilayah-listrik">
+        <div class="input-container">
+            <label for="jaringan">Jaringan listrik : </label>
+            <select name="jaringan" id="jaringan">
+            <option value="" disabled selected>Pilih Wilayah</option>
+            <option value="jawa">Jawa</option>
+            <option value="sumatra">Sumatra</option>
+            <option value="kalimantan">Kalimantan</option>
+            <option value="papua">Papua</option>
+            <option value="sulawesi">Sulawesi</option>
+            </select>
+        </div>
+      <div class="input-container">
+        <label for="daya">Batas Daya : </label>
+        <input type="number" id="daya"/>
+      </div>
+      <div class="input-container">
+        <label for="pwilayah">Periode Pemakaian</label>
+        <select name="pemakaian" id="pwilayah">
+          <option value="harian">Harian</option>
+          <option value="bulanan">Bulanan</option>
+          <option value="tahunan">Tahunan</option>
+        </select>
+      </div>
+      <div>
+        <p id="result"></p>
+        <button onclick="hitungwilayah()">
+          <a href="history.html">Lanjut</a>
+        </button>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kalkulator Jejak Karbon</title>
+  </head>
+  <body>
+    <header>
+      <button><a href="pilih.html">Kembali</a></button>
+      <h2>Jejak Karbon Kendaraan</h2>
+    </header>
+    <main>
+      <section class="kendaraan">
+        <div class="input-container">
+          <label>Jenis Kendaraan</label>
+          <select class="kendaraan" name="kendaraan">
+            <option value="bus_sedang">Bus Sedang</option>
+            <option value="kereta_listrik">Kereta Listrik</option>
+            <option value="minibus">Minibus</option>
+            <option value="mobil_diesel">Mobil Diesel</option>
+            <option value="mobil_gasoline">Mobil Gasoline</option>
+            <option value="pesawat">Pesawat</option>
+            <option value="sepeda_motor">Sepeda Motor</option>
+          </select>
+        </div>
+        <div class="input-container">
+          <label>Jarak Tempuh</label>
+          <input
+            type="number"
+            class="jarak-tempuh"
+            min="1"
+            placeholder="Jarak Tempuh dalam Km"
+          />
+        </div>
+        <div class="input-container">
+          <label>Jumlah Orang</label>
+          <input
+            type="number"
+            class="jumlah-orang"
+            min="1"
+            placeholder="Jumlah Orang"
+          />
+        </div>
+        <div class="input-container">
+          <label>Frekuensi Pemakaian</label>
+          <select class="frekuensi" name="frekuensi">
+            <option value="harian">Harian</option>
+            <option value="mingguan">Mingguan</option>
+          </select>
+        </div>
+        <p id="result"></p>
+        <button onclick="">
+          <a href="history.html">Lanjut</a>
+        </button>
+      </section>
+    </main>
+    <
+  </body>
+  <footer></footer>
+  <script src="script.js"></script>
+</html>

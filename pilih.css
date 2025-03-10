@@ -1,0 +1,141 @@
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #62825D;
+}
+
+header button {
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: #62825D;
+    cursor: pointer;
+    width: 20%;
+}
+
+header button a {
+    text-decoration: none;
+    color: #62825D;
+    font-weight: bold;
+}
+
+header h2 {
+    width: 80%;
+    padding-right: 30vh;
+}
+
+.input-container {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #62825D;
+    background-color: white;
+}
+
+
+button {
+    width: 48%;
+    padding: 10px;
+    border: 2px solid #62825D;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+button a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    color: #62825D;
+}
+
+
+.lanjut {
+    background-color: #d3d3d3;
+    color: #ffffff;
+    border: none;
+}
+
+.lanjut:disabled {
+    cursor: not-allowed;
+}
+
+/* Styling untuk halaman kategori kalkulator */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main button {
+    width: 80%;
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 2px solid #62825D;
+    background-color: white;
+    color: #62825D;
+    cursor: pointer;
+}
+
+main button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+    display: block;
+}

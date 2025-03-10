@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background-color: #62825D;
+    justify-content: space-around;
+    display: flex;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    right: 0%;
+    left: 0;
+}
+
+.hapus-all{
+    background-color: #526E48;
+    color: aliceblue;
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
+.add{
+    background-color: #526E48;
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
+.add a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+
+main{
+    padding-top: 10em;
+}
+
+ul li{
+    background-color: #62825D;
+    margin: 2em;
+    text-decoration: none;
+    color: white;
+    padding: 1.5em 10%;
+    display: grid ;
+    justify-content: space-between;
+    list-style: none;
+    border-radius: 3.5em;
+}
+
+ul li button{
+    width: 5em;
+    margin: 0.5em; 
+    border-radius: 0.5em;
+}
+
+h2{
+    justify-self: center;
+    background-color: #62825D;
+    color: white;
+    padding: 1em;
+    border-radius: 1.5em;
+    margin-bottom: 2em;
+}
+
+footer{
+position: fixed;
+bottom: 0;
+}
+
+
+@media (max-width: 650px) {
+    span{
+        display: none;
+    }
+
+    h1{
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 420px){
+    h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 420px){
+    h1{
+        font-size: 1rem;
+    }
+}
