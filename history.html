@@ -8,15 +8,17 @@
 </head>
 <body>
     <header>
-        <button class="hapus-all" onclick="clearHistory()">Hapus <span>Semua Histori</span></button>
-        <h1>Histori Penggunaan Listrik</h1>
-        <button class="add"><a href="pilih.html"> <span> Tambah</span> +</a></button>
+        <button><a href="pilih.html">Kembali</a></button>
+        <h2>History Penggunaan</h2>
     </header>
-    <main>
-        <ul id="history-list">
-
-        </ul>
-
+    <main class="container">
+        <div class="scroll-container">
+            <ul id="history-list"></ul>
+        </div>
+        <div class="button-container">
+            <button class="button-bawah"  onclick="clearHistory()">Hapus <span>Semua Histori</span></button>
+            <a href="pilih.html"><button class="button-bawah"> Tambah +</button></a>
+        </div>
     </main>
     <footer></footer>
 

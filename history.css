@@ -4,67 +4,117 @@
     border: 0;
 }
 
-header{
-    background-color: #62825D;
-    justify-content: space-around;
+body {
+    background-color: #ffffff;
+    color: #62825D;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
     display: flex;
-    padding: 1em;
-    position: fixed;
-    top: 0;
-    right: 0%;
-    left: 0;
+    align-items: center;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    padding: 1.5em;
+    border-bottom: 1px solid #ddd;
+    color: #62825D;
 }
 
-.hapus-all{
-    background-color: #526E48;
-    color: aliceblue;
-    padding: 1em;
-    border-radius: 1.5em;
+header button {
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: #62825D;
+    cursor: pointer;
+    width: 20%;
 }
 
-.add{
-    background-color: #526E48;
-    padding: 1em;
-    border-radius: 1.5em;
-}
-
-.add a{
-    color: aliceblue;
+header button a {
     text-decoration: none;
+    color: #62825D;
+    font-weight: bold;
 }
 
-
-
+header h2 {
+    width: 80%;
+    padding-right: 30vh;
+}
 
 main{
-    padding-top: 10em;
+    padding-top: 1em ;
 }
 
-ul li{
-    background-color: #62825D;
-    margin: 2em;
+.button-bawah{
+    background-color: #ffffff;
     text-decoration: none;
-    color: white;
-    padding: 1.5em 10%;
+    color: #62825D;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 2em;
+    margin: 1.5em 0;
+    border: 2px solid #62825D;
+}
+
+.button-bawah a {
+    text-decoration: none;
+    color: #62825D;
+    font-weight: bold;
+}
+
+.button-bawah:hover {
+    background-color: #62825D;
+    color: #ffffff;
+}
+
+.button-bawah:hover {
+    background-color: #62825D;
+    color: #ffffff;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 70%;
+    height: 80vh;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.scroll-container{
+    overflow: scroll;
+    height: 76%;
+    scrollbar-width: none;
+        
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 5em;
+}
+
+
+ul li{
+    background-color: #ffffff;
+    border: 1.5px solid #62825D;
+    margin: 1.2em 2em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1em 2em;
     display: grid ;
     justify-content: space-between;
     list-style: none;
-    border-radius: 3.5em;
+    border-radius: 20px;
 }
 
 ul li button{
     width: 5em;
     margin: 0.5em; 
     border-radius: 0.5em;
-}
-
-h2{
-    justify-self: center;
-    background-color: #62825D;
-    color: white;
-    padding: 1em;
-    border-radius: 1.5em;
-    margin-bottom: 2em;
 }
 
 footer{
